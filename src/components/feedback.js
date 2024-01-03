@@ -32,12 +32,12 @@ const Feedback = () => {
             <form className='flex flex-col justify-center items-center gap-2 text-center p-2' action="https://getform.io/f/db96c5fb-9063-4883-a850-e833759e93be" 
             method="post">
                 <label className='text-white' htmlFor="">Name:
-                    <input name='name' className='border bg-transparent outline-none p-1 ml-1'
+                    <input required name='name' className='border bg-transparent outline-none p-1 ml-1'
                     type="text" 
                     placeholder='Enter Name' />
                     </label>
                 <label className='text-white' htmlFor="">Message:
-                    <input name='message' className='border bg-transparent outline-none p-1 ml-1'
+                    <input required name='message' className='border bg-transparent outline-none p-1 ml-1'
                      type="text" 
                      placeholder='Enter Message' />
                     </label>

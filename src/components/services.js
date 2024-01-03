@@ -18,10 +18,10 @@ Business Name: Cecilia Gathoni Ndungu
                     </p>
                 </div>
                 <form className='flex flex-col justify-center text-white items-center gap-2 p-2' action="https://getform.io/f/db96c5fb-9063-4883-a850-e833759e93be" method="post">
-                    <input type="number" name='House no' className='border bg-transparent outline-none p-1' placeholder='Enter House no.  ' />
-                    <input type="number"  name='Paybill no' className='border bg-transparent outline-none p-1' placeholder='Enter Paybill no. ' />
-                    <input type="number"  name='Account no' className='border bg-transparent outline-none p-1' placeholder='Enter Account no. ' />
-                    <input type="number"  name='Amount' className='border bg-transparent outline-none p-1' placeholder='Enter Amount ' />
+                    <input type="number" required name='House no' className='border bg-transparent outline-none p-1' placeholder='Enter House no.  ' />
+                    <input type="number" required  name='Paybill no' className='border bg-transparent outline-none p-1' placeholder='Enter Paybill no. ' />
+                    <input type="number" required  name='Account no' className='border bg-transparent outline-none p-1' placeholder='Enter Account no. ' />
+                    <input type="number" required  name='Amount' className='border bg-transparent outline-none p-1' placeholder='Enter Amount ' />
 <button className='border font-bold bg-green-500 text-white w-[150px] p-1 rounded-lg'>Pay</button>
                 </form>
             </div>
@@ -36,10 +36,10 @@ Business Name: Daniel Munene Mwangi
                     </p>
                 </div>
                 <form className='flex flex-col text-white justify-center items-center gap-2 p-2' action="https://getform.io/f/db96c5fb-9063-4883-a850-e833759e93be" method="post">
-                    <input type="number"  name='House no' className='border bg-transparent outline-none p-1' placeholder='Enter House no.  ' />
-                    <input type="number" name='Paybill no' className='border bg-transparent outline-none p-1' placeholder='Enter Paybill no. ' />
-                    <input type="number"  name='Account no' className='border bg-transparent outline-none p-1' placeholder='Enter Account no. ' />
-                    <input type="number"  name='Amount' className='border bg-transparent outline-none p-1' placeholder='Enter Amount ' />
+                    <input type="number" required  name='House no' className='border bg-transparent outline-none p-1' placeholder='Enter House no.  ' />
+                    <input type="number" required name='Paybill no' className='border bg-transparent outline-none p-1' placeholder='Enter Paybill no. ' />
+                    <input type="number" required  name='Account no' className='border bg-transparent outline-none p-1' placeholder='Enter Account no. ' />
+                    <input type="number" required  name='Amount' className='border bg-transparent outline-none p-1' placeholder='Enter Amount ' />
 <button className='border font-bold bg-green-500 text-white w-[150px] p-1 rounded-lg'>Pay</button>
                 </form>
             </div>
