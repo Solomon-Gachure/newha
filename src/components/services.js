@@ -3,7 +3,7 @@ import React, { useState } from 'react'
 const Services = () => {
     
   return (
-    <div className='w-full h-full bg-stone-900'>
+    <div name='services' className='w-full h-full bg-stone-900'>
         {/**section for the payment of services like elec, water, trash */}
         <div>
             <h1 className='text-center text-xl md:text-2xl font-bold text-lime-400'>Pay for Your Services</h1>

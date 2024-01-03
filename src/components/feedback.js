@@ -25,7 +25,7 @@ const Feedback = () => {
     });
   };
   return (
-    <div className='p-2 bg-stone-900'>
+    <div name='feedback' className='p-2 bg-stone-900'>
         {/**feedback section */}
         <div>
             <h1 className='text-2xl font-bold text-lime-500 text-center'>Feedback</h1>

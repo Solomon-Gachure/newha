@@ -2,7 +2,7 @@ import React from 'react'
 
 const Home = () => {
   return (
-    <div className=' w-full h-full'>
+    <div name='home' className=' w-full h-full'>
         {/**hero section */}
         <div className='relative' >
             <img className='object-cover w-full h-[300px] md:h-[500px]'

@@ -1,5 +1,6 @@
 import React, { useState } from 'react'
 import {MdAccountCircle, MdMenu, MdOutlineClose} from 'react-icons/md'
+import { Link } from 'react-scroll';
 const Navbar = () => {
   
     const [menu, setMenu]=useState(false)
@@ -16,10 +17,19 @@ const Navbar = () => {
             <div>
                 {/**links to the pages */}
                 <ul className='hidden md:flex items-center gap-3 text-white  text-xl'>
-                    <li className='cursor-pointer'>Home</li>
-                    <li className='cursor-pointer'>About</li>
-                    <li className='cursor-pointer'>Services</li>
-                    <li className='cursor-pointer'>Feedback</li>
+                    <Link activeClass="active" to="home"  smooth={true} offset={50} duration={500} >
+      <li className='cursor-pointer'>Home</li>
+    </Link>
+    <Link activeClass="active" to="about"  smooth={true} offset={50} duration={500} >
+      <li className='cursor-pointer'>About</li>
+    </Link>
+    <Link activeClass="active" to="services"  smooth={true} offset={50} duration={500} >
+      <li className='cursor-pointer'>Services</li>
+    </Link>
+              <Link activeClass="active" to="feedback"  smooth={true} offset={50} duration={500} >
+      <li className='cursor-pointer'>Feedback</li>
+    </Link>      
+    
 {/**account menu */}
                 <MdAccountCircle className='text-white font-bold cursor-pointer' size={30}/>
                 </ul>
@@ -36,10 +46,18 @@ const Navbar = () => {
               
                 <ul className='md:hidden flex flex-col fixed w-[200px] h-full bg-stone-900 p-2 pt-2 gap-3 z-50 top-0 text-white text-xl ease-in-out duration-500'>
                     <MdOutlineClose onClick={handleClose} className='text-white font-bold cursor-pointer' size={30}/>
-                    <li className='cursor-pointer'>Home</li>
-                    <li className='cursor-pointer'>About</li>
-                    <li className='cursor-pointer'>Services</li>
-                    <li className='cursor-pointer'>Feedback</li>
+                    <Link activeClass="active" to="home"  smooth={true} offset={50} duration={500} >
+      <li className='cursor-pointer'>Home</li>
+    </Link>
+    <Link activeClass="active" to="about"  smooth={true} offset={50} duration={500} >
+      <li className='cursor-pointer'>About</li>
+    </Link>
+    <Link activeClass="active" to="services"  smooth={true} offset={50} duration={500} >
+      <li className='cursor-pointer'>Services</li>
+    </Link>
+              <Link activeClass="active" to="feedback"  smooth={true} offset={50} duration={500} >
+      <li className='cursor-pointer'>Feedback</li>
+    </Link>      
                     <MdAccountCircle className='text-white font-bold cursor-pointer' size={30}/>
 
                 </ul>
